@@ -1,6 +1,6 @@
 {
   "name": "ng2-modal",
-  "version": "0.0.25",
+  "version": "0.0.29",
   "description": "Open modal window (dialog box) for your angular2 applications using bootstrap3.",
   "license": "MIT",
   "readmeFilename": "README.md",
@@ -11,19 +11,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pleerock/ng2-modal.git"
+    "url": "https://github.com/dmromanov/ngx-modal.git"
   },
   "bugs": {
-    "url": "https://github.com/pleerock/ng2-modal/issues"
+    "url": "https://github.com/dmromanov/ngx-modal/issues"
   },
   "tags": [
     "modal",
     "angular2",
+    "angular4",
     "typescript",
     "angular2-modal"
   ],
   "peerDependencies": {
-    "@angular/core": "^2.0.0"
+    "@angular/core": "^2.0.0 || ^4.3.0",
+    "@angular/router": "^3.0.0 || ^4.3.0"
   },
   "devDependencies": {
     "@angular/common": "^2.1.1",
