@@ -160,7 +160,7 @@ export class Modal {
     // Private Methods
     // -------------------------------------------------------------------------
 
-    private backdropClick(event: MouseEvent): void {
+    public backdropClick(event: MouseEvent): void {
         if (this.closeOnOutsideClick === true && !this.contentEl.nativeElement.contains(event.target)) {
             this.close();
         }
